@@ -1,0 +1,12 @@
+diff -Naur A/src/bluetooth.service.in B/src/bluetooth.service.in
+--- A/src/bluetooth.service.in	2016-05-26 22:21:11.000000000 +0530
++++ B/src/bluetooth.service.in	2020-10-21 13:54:05.122813334 +0530
+@@ -6,7 +6,7 @@
+ [Service]
+ Type=dbus
+ BusName=org.bluez
+-ExecStart=@libexecdir@/bluetoothd
++ExecStart=@libexecdir@/bluetoothd -C
+ NotifyAccess=main
+ #WatchdogSec=10
+ #Restart=on-failure
