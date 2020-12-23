@@ -2,7 +2,7 @@
 
 require recipes-kernel/linux/linux-imx_5.4.bb
 
-SRC_URI = "git://git-codecommit.ap-south-1.amazonaws.com/v1/repos/linux-imx-iWave.git;protocol=ssh;branch=main"
+SRC_URI = "git://git-codecommit.ap-south-1.amazonaws.com/v1/repos/linux-imx-iWave.git;protocol=ssh;branch=5.4.24_2.1.0-iwg33m-R3.0-REL0.1"
 SRCREV = "f79cfd4f8446501ccd4ba602eb3863caa4474cc2"
 
 do_copy_defconfig () {
